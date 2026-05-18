@@ -3,9 +3,8 @@
 An interactive desktop application designed to automate the analysis, comparison, and visualization of Raman spectroscopy data and corresponding crystal microscopy images.
 
 ## What Does This Project Do?
-In materials science and chemistry laboratories, researchers often have to manually correlate Raman spectral graphs with physical microscopy images of crystal samples, and overlay multiple graphs to detect structural differences. 
 
-This project solves this bottleneck by providing a Python-based Graphical User Interface (GUI). It allows users to dynamically load multiple Raman data files, view the spectrum side-by-side with the physical crystal image, overlay multiple spectra for immediate comparison, and analyze structural variations (such as peak shifts).
+This project provide a Python-based Graphical User Interface (GUI). It allows users to dynamically load multiple Raman data files, view the spectrum side-by-side with the physical crystal image, overlay multiple spectra for immediate comparison, and analyze structural variations (such as peak shifts).
 
 ## Input & Output Data
 ### Expected Input:
