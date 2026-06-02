@@ -1,25 +1,25 @@
-# Raman-Spectroscopy-Crystal-Analyzer
+## 🔬 Scientific Background & Purpose
 
-An interactive desktop application designed to automate the analysis, comparison, and visualization of Raman spectroscopy data and corresponding crystal microscopy images.
+This project focuses on the solid-state phase transitions of **Uric Acid**.
 
-## What Does This Project Do?
+### The Samples & Thermodynamic Phases
+Uric acid primarily exists in two crystalline phases:
+1. **Anhydrous Uric Acid:** The thermodynamically stable phase under ambient conditions.
+2. **Uric Acid Dihydrate:** A metastable phase that tends to transform into the anhydrous form over time.
 
-This project provide a Python-based Graphical User Interface (GUI). It allows users to dynamically load multiple Raman data files, view the spectrum side-by-side with the physical crystal image, overlay multiple spectra for immediate comparison, and analyze structural variations (such as peak shifts).
+In this study, a dataset of 3 distinct sample groups was analyzed:
+* **Sample 1 (100% Anhydrous):** A pure control sample whose phase was fully verified via Powder X-ray Diffraction (PXRD).
+* **Sample 2 (Fresh Mixture):** A newly prepared sample on the day of the Raman analysis. PXRD confirmed it contains a mixture of both Anhydrous and Dihydrate phases.
+* **Sample 3 (Aged Mixture):** A sample prepared several days prior to the analysis. PXRD also confirmed a mixture of both phases.
 
-## Input & Output Data
-### Expected Input:
-* **Spectral Data:** Text or CSV files containing raw Raman spectroscopy data organized in two columns: `Raman Shift (cm⁻¹)` and `Intensity (a.u.)`.
-* **Sample Images:** Standard image files (`.jpg`, `.png`) representing the physical crystal samples from which the spectra were taken.
+### Research Objective & Time-Dependency
+Because the transition from the unstable dihydrate phase to the stable anhydrous phase is a **function of time**, comparing the fresh mixture (Sample 2) with the aged mixture (Sample 3) allows us to monitor and characterize the phase transformation process.
 
-### Expected Output:
-* **Interactive Dashboard:** A dual-panel interface displaying the interactive graph on one side and the crystal image on the other.
-* **Comparative Overlay:** A unified plot showing multiple selected Raman curves simultaneously, with visual highlights indicating shifts and differences between crystal configurations.
+### Micro-Raman Spectroscopy Workflow
+To differentiate between the co-existing phases within the mixed samples, **Micro-Raman Spectroscopy** was utilized:
+1. **Optical Visual Inspection:** Using the integrated optical microscope of the Raman system, specific individual crystals were targeted based on their morphology.
+2. **Microscopy Imaging:** A high-resolution digital photograph was captured for each targeted crystal to document its visual appearance.
+3. **Spectral Acquisition:** A focused laser was fired at the exact same crystal to acquire its distinct Raman spectrum (Raman Shift vs. Intensity).
 
-## 🛠️ Technicalities & Installation (Planned)
-
-### Prerequisites
-To run this application, you will need Python 3.x installed along with the following external libraries:
-* `pandas` & `numpy` (For data parsing and mathematical comparison)
-* `matplotlib` (For spectral plotting)
-* `Pillow` (For microscopy image handling)
-* `tkinter` (For the desktop user interface)
+### Project Goal
+By linking the visual crystal morphology (images) with their corresponding vibrational fingerprints (Raman spectra), this software helps researchers visually and spectrally map out which crystals are Anhydrous and which are Dihydrate, making the tracking of polymorphic transformations immediate and automated.
