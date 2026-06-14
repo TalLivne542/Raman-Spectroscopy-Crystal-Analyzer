@@ -24,7 +24,7 @@ To differentiate between the co-existing phases within the mixed samples, **Micr
 ### Project Goal
 By linking the visual crystal morphology (images) with their corresponding vibrational fingerprints (Raman spectra), this software helps researchers visually and spectrally map out which crystals are Anhydrous and which are Dihydrate, making the tracking of polymorphic transformations immediate and automated.
 
-### Instructions on How to Run the Code (in Terminal)
+### How to Run the Code (in Terminal)?
 
 ```
 python main.py
