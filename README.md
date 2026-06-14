@@ -26,4 +26,6 @@ By linking the visual crystal morphology (images) with their corresponding vibra
 
 ### Instructions on How to Run the Code
 
-To execute the Raman spectroscopy and crystal imaging application locally, first verify that all necessary visualization and data processing modules are installed by running pip install numpy pandas matplotlib pillow in your terminal environment. Once the framework dependencies are successfully provisioned, navigate to the project root directory where your dataset and code reside, and initiate the main execution interface by running the command python main.py. Upon initialization, the graphical user interface (GUI) will launch, allowing you to load and navigate through the spectral data text files to plot the respective Raman spectrum dynamically. To view the physical structural properties of the analyzed sample, simply select the desired spectrum and click the designated display button within the interface to instantly render and map the corresponding high-resolution crystal microscope image (.jpg).
+```
+python main.py
+```
